@@ -24,12 +24,13 @@ public class ExTestDrive {
         System.out.print("h");
         try {
             doRisky(test);
+            System.out.print("o");
         } catch (MyEx e) {
             System.out.print("a");
         }
         finally {
             System.out.print("w");
-            System.out.print("s");
+            System.out.println("s");
         }
     }
 }
