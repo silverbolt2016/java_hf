@@ -6,7 +6,7 @@ class MyDrawPanelRect extends JPanel {
     public void paintComponent(Graphics g) {
         g.setColor(Color.orange);
         // Leave x, y == 0,0 for now.  When not zero I dont know what the behavior is
-        // Sometime the rectangle appears and at other time it does not.  To be investigated
+        // Sometimes the rectangle appears and at other time it does not.  To be investigated
         g.fillRect(0, 0, 50, 50); 
     }
 }
