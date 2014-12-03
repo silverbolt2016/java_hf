@@ -1,0 +1,17 @@
+a stream is a pipe
+you can put stuff into the pipe or get stuff out of the pipe
+
+
+stream :continuous series of bits
+
+A text stream is a special type of binary stream.
+The unit of data for a text stream is a byte. (ascii encoding)
+
+From a text stream, the data should be read in one byte at a time.
+Each byte should be converted to a character and painted on the screen
+
+Binary Streams
+In a binary stream, the unit of data is not fixed as it can be of any data type.  The data type of data and the order in which data is written to the stream must be known so that data can be read from the stream in the same order of data types.
+
+Writing to a file using binary stream you can have
+a short( 2 bytes) followed by an Interger (4) fllowed by a Byte(1) etc...
